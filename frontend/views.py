@@ -7,3 +7,8 @@ class NavbarPageView(TemplateView):
 
 class TitleNavBar(TemplateView):
 	template_name = "title.html"
+
+
+class TablePageView(TemplateView):
+	template_name = "table.html"
+
