@@ -1,7 +1,7 @@
 from django.urls import path, include
-from .views import HomePageView
+from .views import NavbarPageView
 
 
 urlpatterns = [
-    path('', HomePageView.as_view(), name="home")
+    path('', NavbarPageView.as_view(), name="home")
 ]
